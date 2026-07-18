@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch Later</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="icon" href="images/clock.png" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="nav-section nav-left">
+            <button
+              class="nav-button menu-button"
+              type="button"
+              title="Open menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="index.html" class="nav-logo" target="_blank">
+              <i class="fa-brands fa-youtube youtube-icon"></i>
+
+              <h3>YouTube</h3>
+            </a>
+          </div>
+
+          <div class="nav-section nav-center">
+            <form action="#" class="search-form">
+              <input
+                type="search"
+                placeholder="Search"
+                required
+                class="search-input"
+              />
+              <button
+                class="nav-button search-button"
+                type="button"
+                title="Search"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <button
+              class="nav-button mic-button"
+              type="button"
+              title="Voice search"
+            >
+              <i class="fa-solid fa-microphone"></i>
+            </button>
+          </div>
+
+          <div class="nav-section nav-right">
+            <button
+              class="nav-button search-button"
+              type="button"
+              title="Search"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button
+              class="nav-button theme-button"
+              type="button"
+              title="Toggle theme"
+            >
+              <i class="fa-regular fa-moon"></i>
+            </button>
+            <a href="login.html" title="Sign In" class="nav-button">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main-layout">
+        <div class="screen-overlay"></div>
+        <aside class="sidebar">
+          <div class="nav-section nav-left">
+            <button
+              class="nav-button menu-button"
+              type="button"
+              title="Open menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="index.html" class="nav-logo" target="_blank">
+              <i class="fa-brands fa-youtube youtube-icon"></i>
+              <h3>YouTube</h3>
+            </a>
+          </div>
+          <div class="link-container">
+            <div class="link-section">
+              <a
+                href="index.html"
+                class="link-item"
+                target="_blank"
+                id="nav-home"
+              >
+                <i class="fa-solid fa-house"></i>home</a
+              >
+              <a href="#" class="link-item" target="_blank" id="nav-shorts">
+                <i class="fa-brands fa-youtube-shorts"></i>shorts</a
+              >
+              <a href="#" class="link-item" target="_blank" id="nav-downloads">
+                <i class="fa-solid fa-download"></i>downloads</a
+              >
+              <a
+                href="#"
+                class="link-item"
+                target="_blank"
+                id="nav-subscriptions"
+              >
+                <i class="fa-brands fa-square-youtube"></i>subscriptions</a
+              >
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">You</h4>
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-circle-user"></i>your channel</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-clock-rotate-left"></i>history</a
+              >
+              <a
+                href="watch-later.html"
+                class="link-item"
+                target="_blank"
+                id="nav-watch-later"
+              >
+                <i class="fa-solid fa-clock"></i>watch later</a
+              >
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">Explore</h4>
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-fire"></i>trending</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-music"></i>music</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-gamepad"></i>gaming</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-futbol"></i>sports</a
+              >
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title" target="_blank">more from youtube</h4>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-plus"></i>youtube plus</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-music"></i>youtube music</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-child"></i>youtube kids</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-futbol"></i>sports</a
+              >
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-gear"></i>settings</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-flag"></i>report</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-circle-question"></i>help</a
+              >
+              <a href="#" class="link-item" target="_blank">
+                <i class="fa-solid fa-message"></i>feedback</a
+              >
+            </div>
+            <div class="section-separator"></div>
+          </div>
+        </aside>
+
+        <div class="content-wrapper">
+          <div class="category-list">
+            <button class="category-button active">All</button>
+            <button class="category-button">website</button>
+            <button class="category-button">music</button>
+            <button class="category-button">gaming</button>
+            <button class="category-button">node.js</button>
+            <button class="category-button">javascript</button>
+            <button class="category-button">react.js</button>
+            <button class="category-button">typescript</button>
+            <button class="category-button">coding</button>
+            <button class="category-button">next.js</button>
+            <button class="category-button">data analysis</button>
+            <button class="category-button">web design</button>
+            <button class="category-button">HTML</button>
+            <button class="category-button">Tailwind</button>
+            <button class="category-button">CSS</button>
+            <button class="category-button">Express.js</button>
+          </div>
+
+          <div class="video-list" id="video-list"></div>
+        </div>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

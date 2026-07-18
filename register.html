@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-body">
+    <div class="auth-container">
+        <div class="auth-header">
+            <i class="fa-brands fa-youtube youtube-icon"></i>
+            <h2>Create Account</h2>
+            <p>Join our video platform today</p>
+        </div>
+        
+        <form id="registerForm" novalidate>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Full Name" required>
+                <span class="error-message" id="usernameError"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email address" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <span class="error-message" id="confirmPasswordError"></span>
+            </div>
+            
+            <button type="submit" class="auth-btn">Register</button>
+        </form>
+        
+        <div class="auth-footer">
+            <span>Already have an account? <a href="login.html">Sign in instead</a></span>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
